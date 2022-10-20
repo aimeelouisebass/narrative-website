@@ -16,7 +16,7 @@
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
+  --bs-orange: #e79048;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #1abc9c;
@@ -92,7 +92,7 @@ body {
 hr {
   margin: 1rem 0;
   color: inherit;
-  background-color: currentColor;
+  background-color: #e79048;
   border: 0;
   opacity: 0.25;
 }
@@ -236,7 +236,7 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #15967d;
   text-decoration: underline;
 }
 a:hover {
