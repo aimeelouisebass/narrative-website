@@ -3051,8 +3051,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #F1A661;
-  border-color: #F1A661;
+  background-color: #E38B29;
+  border-color: #E38B29;
 }
 .btn-primary:hover {
   color: #fff;
@@ -3111,7 +3111,7 @@ textarea.form-control-lg {
 
 .btn-success {
   color: #fff;
-  background-color: #198754;
+  background-color: #191e87;
   border-color: #198754;
 }
 .btn-success:hover {
@@ -3841,7 +3841,7 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #F1A661;
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
   color: #adb5bd;
@@ -4020,7 +4020,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #F1A661;
 }
 
 .nav-fill > .nav-link,
@@ -7742,7 +7742,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: black;
 }
 
 .text-success {
@@ -7828,12 +7828,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #E38B29;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: #e79048;
+  background-color: #E38B29;
 }
 
 .bg-success {
@@ -11337,9 +11337,9 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #000;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: #000;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -11348,7 +11348,7 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  color: #E38B29;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -11389,10 +11389,10 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #FFD8A9;
+  color: #F1A661;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #FFD8A9;
+  color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #1abc9c;
@@ -11502,7 +11502,7 @@ html {
 }
 
 .portfolio-modal .btn-close {
-  color: #1abc9c;
+  color: #F1A661;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -11520,7 +11520,7 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #E38B29;
   color: #fff;
 }
 
