@@ -29,6 +29,21 @@
 /* Carousel End
 ------------------------- */
 
+/* Full Width Image
+------------------------- */
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Full Width Image End
+------------------------- */
+
+
 
 
 :root {
