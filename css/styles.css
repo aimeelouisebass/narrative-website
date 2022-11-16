@@ -43,6 +43,9 @@
 /* Full Width Image End
 ------------------------- */
 
+html{
+  scroll-behavior: smooth;
+}
 
 
 
@@ -3071,9 +3074,9 @@ textarea.form-control-lg {
   border-color: #E38B29;
 }
 .btn-primary:hover {
-  color: #fff;
+  color:#E38B29;
   background-color: #fff;
-  border-color: #fff;
+  border-color: #black;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
