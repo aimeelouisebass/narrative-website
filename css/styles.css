@@ -32,8 +32,8 @@
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
-  min-height: 25rem;
+  height: 0vh;
+  min-height: 0rem;
   width: 100%;
   overflow: hidden;
 }
@@ -148,7 +148,7 @@ html{
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -5675,6 +5675,7 @@ textarea.form-control-lg {
   position: relative;
   flex: 1 1 auto;
   padding: 1rem;
+  height: inherit;
 }
 
 .modal-footer {
@@ -11542,8 +11543,8 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(0rem + 104px);
+    padding-bottom: 0rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -11560,6 +11561,16 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+}
+
+.portfolio .portfolio-item-large{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
