@@ -34,12 +34,12 @@
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Montserrat', sans-serif;
-  color:#bebebf;
-  font-size: 35px;
+  font-family: 'Lora';
+  color: #FFF;
+  font-size: 40px;
   font-variant:inherit;
   letter-spacing: 10px;
-  text-shadow:10px 3px 70px white;
+  text-shadow:10px 3px 70px black;
   }
   
   
@@ -11574,6 +11574,13 @@ html {
     font-size: 1.5rem;
   }
 }
+
+.image-container-test {
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
