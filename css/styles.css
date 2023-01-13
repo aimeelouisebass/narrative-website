@@ -29,6 +29,20 @@
 /* Carousel End
 ------------------------- */
 
+/* Full Width Image
+------------------------- */
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Full Width Image End
+------------------------- */
+
 .text-recipe-title{
   position: absolute;
   top: 85%;
@@ -358,6 +372,18 @@ a:hover {
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
+}
+
+.carousel-caption button a {
+  color: white;
+}
+
+.carousel-caption button a:hover {
+  color: #F1A661;
+}
+
+.restrict-height {
+  max-height: 400px;
 }
 
 pre,
